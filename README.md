@@ -47,7 +47,7 @@ it("works", () => {
 });
 ```
 
-## 2. Review this code. What remarks would you make? How would you enhance it ?
+## [2. Review this code. What remarks would you make? How would you enhance it ?](./02_Who_wrote_this_node.md)
 
 ```js
 let express = require('express');
