@@ -81,7 +81,7 @@ app.listen(8080, () => {
 });
 ```
 
-## 3. Bonus exercise (Not mandatory)
+## [3. Bonus exercise (Not mandatory)](./03_Amazing_po_strikes_back.md)
 
 You are expected to build a JavaScript application that lets users write hierarchical lists. 
 We need to get an MVP out very soon, which will be incrementally augmented under tight deadlines. 
