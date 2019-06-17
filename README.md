@@ -15,7 +15,7 @@ Notes :
 - Using Reactjs is a big bonus.
 - Think professional code. 
 
-## 1. Do the necessary to make the test pass. This is intended to evaluate your algorithmic skills.
+## [1. Do the necessary to make the test pass. This is intended to evaluate your algorithmic skills.](01_Road_to_headache.md)
 
 ```js
 const resolveObjects = require("../resolveObjects.js");
