@@ -38,8 +38,8 @@ app.listen(8080, () => {
 
 ## Solution
 
-First thing that come to my mind: to have a full working CRUD, it lacks a way to delete a todo.
-We can do it simply by adding this code:
+First thing that comes to my mind: it lacks a way to delete a todo to have a full working CRUD.
+We can do it simply by adding this snippet:
 
 ```js
 app.delete('/todos/:id', (req, res) => {
@@ -56,6 +56,7 @@ app.delete('/todos/:id', (req, res) => {
 
 
 Then, I find that this api is not RESTful compliant (please note that I’ve only done backend stuff at school, so I rely on those notions).
+
 In order to make it restful, I’ll change this (commented lines are old code):
 
 ```js
@@ -66,6 +67,7 @@ app.get('/todos', (req, res) => {
 ```
 
 We can simply sendStatus here:
+
 ```js
 app.get('/', (req, res) => {
     // res.send('OK');
@@ -73,7 +75,7 @@ app.get('/', (req, res) => {
 });
 ```
 
-Also, I think there is a problem in the get and put `/todos/:id`: the way we select the todo won’t work because `todos` is an array, so we can’t access to the elements directly by using the `id` of one `todo`. I’d rather do it this way:
+Also, I think there is a problem in the **get** and **put** `/todos/:id`: the way we select the todo won’t work because `todos` is an array, so we can’t access elements directly by using the `id` of one `todo`. I’d rather do it this way:
 
 ```js
 app.put('/todos/:id', (req, res) => {

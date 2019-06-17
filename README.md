@@ -1,18 +1,20 @@
 # Introduction
 
-En relisant le test que j'avais effectué il y a quelques jours, je me suis rendu compte que il y avait des erreurs et quelques fautes d'innatentions qui méritaient d'être corrigés.
+When reading back this assignement done few weeks ago, I spot some small mistakes and I have felt like I need to fix that.
 
-J'en profite pour organiser correctement le test, avec un repo et plusieurs fichiers.
+I take this opportunity to create a clean repository which will cover all this test and will be organized into multiples files.
 
-Vous trouverez ci-dessous une liste des challenges. Chaque challenge se trouvera dans un fichier séparé de ce répo, et les instructions seront répétées en haut de chaque fichier.
+You will find below the list of originals instructions.
+
+Each solution will be placed into a separate file, and the instructions will be echoed at the beginning of each solution file.
 
 ## Instructions
 
 Notes :
-- All programs should be written in JavaScript
-- If not specified, framework/technology can be chosen freely.
-- The usage of node js is mandatory if backend code is necessary
-- Using Reactjs is a big bonus.
+- All programs should be written in JavaScript,
+- If not specified, framework/technology can be chosen freely,
+- The usage of node js is mandatory if backend code is necessary,
+- Using Reactjs is a big bonus,
 - Think professional code. 
 
 ## [1. Do the necessary to make the test pass. This is intended to evaluate your algorithmic skills.](01_Road_to_headache.md)
