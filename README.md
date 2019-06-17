@@ -17,7 +17,7 @@ Notes :
 - Using Reactjs is a big bonus,
 - Think professional code. 
 
-## [1. Do the necessary to make the test pass. This is intended to evaluate your algorithmic skills.](01_Road_to_headache.md)
+## [1. Do the necessary to make the test pass. This is intended to evaluate your algorithmic skills.](./01_Road_to_headache.md)
 
 ```js
 const resolveObjects = require("../resolveObjects.js");
@@ -48,6 +48,8 @@ it("works", () => {
   });
 });
 ```
+
+[> Read the solution](./01_Road_to_headache.md#solution)
 
 ## [2. Review this code. What remarks would you make? How would you enhance it ?](./02_Who_wrote_this_node.md)
 
@@ -83,6 +85,8 @@ app.listen(8080, () => {
 });
 ```
 
+[> Read the solution](./02_Who_wrote_this_node.md#solution)
+
 ## [3. Bonus exercise (Not mandatory)](./03_Amazing_po_strikes_back.md)
 
 You are expected to build a JavaScript application that lets users write hierarchical lists. 
@@ -100,3 +104,5 @@ Ultimately, the application should:
 - handle master-lists (lists of links to lists) 
 
 And do much more; the product owner is bustling with ideas. 
+
+[> Read the solution](./03_Amazing_po_strikes_back.md#solution)
